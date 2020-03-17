@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    background-color: #0C325A;
+    height: 550px;
+    background-image: url("../img/oldman.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 90% 100%;
+}
+
+main {
+    background-color: white;
+}
+
+footer {
+    display: block; position: fixed; background-color: rgb(123, 188, 0); color: rgb(255, 255, 255); border-color: rgb(255, 255, 255); font-family: "proxima-nova", Arial, sans-serif; font-size: 14px; border-top-left-radius: 5px; border-top-right-radius: 5px; cursor: pointer; padding: 8px 10px 21px; z-index: 100000001; bottom: -12px; right: 200px;
+}
+
+/* CLASSI ROSSE START */
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.ul-style {
+    list-style: none;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-green {
+    background-color: #7fb802;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn-green:hover {
+    cursor: pointer;
+}
+/* CLASSI ROSSE END */
+
+/* HEADER START*/
+/* HEADER NAVBAR */
+.header-navbar {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.header-navbar::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* LOGO */
+.img-logo {
+    padding-right: 50px;
+}
+
+/* HEADER NAVBAR LEFT */
+.header-navbar-left ul li, .header-navbar-right ul li {
+    display: inline-block;
+    padding: 15px 10px;
+    font-size: 12px;
+}
+
+/* HEADER NAVBAR RIGHT */
+.header-navbar-right .btn-login {
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 40px;
+}
+
+.header-navbar-right .btn-green {
+    padding: 10px 20px;
+}
+
+/* JUMBOTRON */
+.jumbo-box {
+    padding: 20px;
+}
+
+.jumbo-box h1 {
+    color: white;
+    font-size: 50px;
+    width: 600px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.jumbo-box a {
+    padding: 15px 30px;
+}
+/* HEADER END */
+
+/* MAIN START */
+/* BANNER GREY */
+.banner-box {
+    height: 150px;
+    background-color: rgb(210, 210, 210);
+    position: relative;
+}
+
+.banner-grey {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 40px;
+}
+
+.banner-grey h2 {
+    color: black;
+}
+
+.banner-grey h3 {
+    color: rgb(120, 120, 120);
+}
+/* BANNER END */
+
+/* ROW 3 IMG */
+/* BOX! */
+.row-middle {
+    width: 75%;
+    text-align: center;
+}
+
+.row-middle::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.block {
+    height: 500px;
+    padding: 0 50px;
+    width: calc(100% / 3);
+}
+
+.block h2 {
+    color: rgb(29, 181, 66);
+    padding: 20px 0;
+}
+
+.block hr {
+    width: 60px;
+    margin: auto;
+}
+
+.block p {
+    color: rgb(170, 170, 170);
+    padding: 20px 0;
+}
